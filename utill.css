@@ -1,0 +1,150 @@
+.min-h-screen{
+    min-height: 100vh;
+
+}
+.bg-red{
+
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display:flex;
+}
+
+.item-center{
+    align-items:center;
+}
+
+.flex-col{
+flex-direction: column;
+}
+
+
+.justify-between{
+    justify-content:space-between;
+}
+
+.justify-center{
+    justify-content:center;
+}
+
+.font-bold{
+ font-weight: bold;   
+}
+
+.my-1{
+    margin-top:13px;
+    margin-bottom:13px;
+}
+
+.px-1{
+    padding-left:13px;
+    padding-right:13px;
+}
+
+.text-blue{
+    color:rgb(29, 88,214);
+    font-weight: 900;
+}
+
+.btn{
+    padding:7px 12px;
+    border:2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color :white;
+    background-color:rgb(29, 88,214);
+}
+
+.btn1{
+    padding:7px 17px;
+    border:2px solid white;
+    width:100px;
+    justify-items:column;
+    border-radius: 6px;
+    cursor: pointer;
+    color :white;
+    background-color:rgb(99, 135, 112);
+}
+body .img-topright {
+    height:370px;
+    width:350px;
+    margin-top: 0px;
+    margin-left:37px;
+}
+
+.img-topright1{
+    height:428px;
+    width:350px;
+       margin-top: 2px;
+       margin-left:37px;
+       background-attachment: fixed;
+}
+.img-topright2{
+    height:430px;
+    width:350px;
+       margin-top: 0px;
+       margin-right:37px;
+}
+.img-topright3{
+    height:370px;
+    width:350px;
+       margin-top: 0px;
+       margin-left:37px;
+}
+
+.logo{
+    height: 50px;
+    width:50px;
+
+}
+
+.box-img{
+    height: 50px;
+    width:50px;
+    margin-left:25px;
+}
+
+
+
+.bg-green
+{
+    background-color: green;
+}
+.center{
+text-align: center;
+text-transform: capitalize;
+}
+
+.tickmark ,li ,a{
+    list-style:none;
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar li:hover {
+    background-color: #c6bebe;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #ebf0ee;
+  }
+  
+ 
+
+.bg-color{
+  background-color: rgb(180, 206, 180);
+}
+
+.h1-margin{
+    padding:50px;
+}
+
+.top-header .navbar{
+    background-color: rgb(180, 206, 180);
+}

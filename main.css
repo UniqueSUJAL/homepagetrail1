@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebf0ee;
+}
+.container{
+    max-width:80vw;
+
+}
+.navbar {
+    display:flex;
+    height: 67px;
+    
+font-family: 'Ubuntu', sans-serif;
+
+    
+}
+
+.navbar1 {
+    display:flex;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: fit-content;
+}
+
+.navbar li{
+list-style: none;
+margin:0 12px;}
+
+.top-left{
+    width: 50%;
+    height:50vh;  
+
+    
+    }
+    .top-right{
+        width: 50%;
+        
+        height:50vh;  
+    }
+   
+    .section4{
+        width: 100%;
+        height:50vh;  
+        
+    }
+
+
+    .section5{
+        height:50vh;  
+    }
+
+ 
+    .box{
+        margin: 12px 22px;
+        height: 250px;
+        width:110vw;
+    
+        
+
+    }
+
+    .margin-box{
+        margin-left: 76px;
+        width: 88%;
+        height: 40vh;
+        margin-top: 2px;
+        
+      }
+      .margin-box h3{
+        text-align:center;
+      }
+      footer{
+        padding:23px;
+      }
+    
+
+      /*---------------------------responsive--------------------*/
+
+    /*  @media screen and (max-width: 500px) {
+        .navbar  {
+          float: none;
+          display: block;
+        }
+      }*/
+      @media  screen and(max-width:500px){
+        .navbar {
+            flex-direction: column;
+        }
+        
+      }
